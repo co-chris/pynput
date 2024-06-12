@@ -173,7 +173,8 @@ class Key(enum.Enum):
     esc = KeyCode.from_vk(0x35)
     f1 = KeyCode.from_vk(0x7A)
     f2 = KeyCode.from_vk(0x78)
-    f3 = KeyCode.from_vk(0x63)
+    # f3 = KeyCode.from_vk(0x63)
+    f3 = KeyCode.from_vk(0xA0) # 160
     f4 = KeyCode.from_vk(0x76)
     f5 = KeyCode.from_vk(0x60)
     f6 = KeyCode.from_vk(0x61)
